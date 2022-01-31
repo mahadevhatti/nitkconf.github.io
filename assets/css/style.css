@@ -822,7 +822,7 @@ p#demo {
 }
 
 .team-img > a::after {
-  background: rgba(0, 0, 0, 0.7);
+  /* background: rgba(0, 0, 0, 0.7); */
   bottom: 0;
   content: "";
   height: 100%;
