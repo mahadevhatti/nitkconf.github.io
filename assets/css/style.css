@@ -266,7 +266,7 @@ div#preloader {
 }
 
 .header-bg {
-  background: url(../img/background/page-header.jpg);
+  background: url(../img/background/nitk1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -279,7 +279,7 @@ div#preloader {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
+  /* background: rgba(0, 0, 0, 0.7); */
 }
 @media (min-width: 1025px) {
   .header-bg {
@@ -471,13 +471,13 @@ div#preloader {
 --------------------------------------------------------------*/
 
 @media (max-width: 768px){
-p#demo {
+p#demo,p#demo1,p#demo2 {
     background: linear-gradient(145deg, #292f63 0%, #0e3a74 100%);
     opacity: 0.5;
 }
 }
 
-p#demo {
+p#demo,p#demo1,p#demo2{
     background: linear-gradient(145deg, #292f63 0%, #0e3a74 100%);
     opacity: 0.5;
     padding-top: 20px;
@@ -2406,7 +2406,7 @@ span.email-notes {
   }
 
   .page-area .slider-content {
-    padding: 500px 0;
+    padding: 25px 0;
   }
 
   .search-option input {
