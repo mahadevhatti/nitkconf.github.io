@@ -279,7 +279,7 @@ div#preloader {
   right: 0;
   top: 0;
   bottom: 0;
-  /* background: rgba(0, 0, 0, 0.7); */
+  background: rgba(0, 0, 0, 0.3);
 }
 @media (min-width: 1025px) {
   .header-bg {
@@ -510,7 +510,7 @@ p#demo,p#demo1,p#demo2{
 }
 #hero .carousel-item::before {
   content: "";
-  /* background-color: rgba(0, 0, 0, 0.7); */
+  background-color: rgba(0, 0, 0, 0.3);
 }
 #hero .carousel-container {
   display: flex;
