@@ -115,7 +115,30 @@
                 <p class="">1st - 3rd Decemeber (Tentative)</p>
                 <!-- <h2 class="animate__animated animate__fadeInDown">(IEEE Conference Record # 50510)</h2> -->
 
-  <p id="demo" style="text-align: center; font-size: 30px; margin-top: 0px; color:#FCF876;"></p>
+  <!-- <p id="demo" style="text-align: center; font-size: 30px; margin-top: 0px; color:#FCF876;"></p> -->
+                <div class="countdown">
+  <div class="countdown-item">
+    <span id="day">-</span>
+    <span>Day</span>
+  </div>
+
+  <div class="countdown-item">
+    <span id="hour">-</span>
+    <span>Hour</span>
+  </div>
+
+  <div class="countdown-item">
+    <span id="minute">-</span>
+    <span>Minute</span>
+  </div>
+
+  <div class="countdown-item">
+    <span id="second">-</span>
+    <span>Second</span>
+  </div>
+  
+  <div class="pulse"></div>
+</div>
 
 
 <!-- width:30%;background: linear-gradient(145deg, #292f63 0%, #0e3a74 100%);opacity: 0.5; -->
@@ -1047,6 +1070,30 @@
     }
   }, 1000);
 
+  </script>
+  <script>
+    let countDownEnd = false;
+
+setInterval(() => {
+  let targetTime = 1663445795402;
+  let now = new Date().getTime();
+  let timeleft = targetTime - now;
+
+  if (timeleft < 0) {
+    countDownEnd = true;
+  }
+
+  // Calculating the days, hours, minutes and seconds left
+  let day = Math.floor(timeleft / (1000 * 60 * 60 * 24));
+  let hour = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  let minute = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
+  let second = Math.floor((timeleft % (1000 * 60)) / 1000);
+
+  document.getElementById("day").innerText = day;
+  document.getElementById("hour").innerText = hour;
+  document.getElementById("minute").innerText = minute;
+  document.getElementById("second").innerText = second;
+}, 1000);
   </script>
 
 </script>
