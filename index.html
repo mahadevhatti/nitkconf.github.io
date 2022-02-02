@@ -1074,13 +1074,13 @@
 
   </script>
   <script>
-    let countDownEnd = false;
-let countDownDate = new Date("Dec 1, 2022 09:00:25").getTime();
+    
+ var countDownDate = new Date("Dec 1, 2022 09:00:25").getTime();
 
-setInterval(() => {
+ setInterval(() => {
   
-  let now = new Date().getTime();
-  let timeleft = countDownDate - now;
+  var now = new Date().getTime();
+  var timeleft = countDownDate - now;
 
   if (timeleft < 0) {
     countDownEnd = true;
