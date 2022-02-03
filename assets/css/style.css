@@ -670,10 +670,16 @@ p#demo,p#demo1,p#demo2{
   margin-bottom: 25px;
 }
 
+
+
 .services-details {
   padding-top: 40px;
   transition: all 0.5s ease 0s;
 }
+
+
+
+
 
 .services-details:hover h4, .services-details:hover .services-icon {
   color: #3EC1D5;
