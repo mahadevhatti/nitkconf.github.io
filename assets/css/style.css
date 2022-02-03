@@ -279,7 +279,7 @@ div#preloader {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.1);
 }
 @media (min-width: 1025px) {
   .header-bg {
@@ -510,7 +510,7 @@ p#demo,p#demo1,p#demo2{
 }
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 #hero .carousel-container {
   display: flex;
@@ -586,7 +586,7 @@ p#demo,p#demo1,p#demo2{
 #hero .carousel-fade .carousel-inner .carousel-item-next.carousel-item-start,
 #hero .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-end {
   opacity: 1;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 #hero .carousel-fade .carousel-inner .carousel-item-next,
 #hero .carousel-fade .carousel-inner .carousel-item-prev,
