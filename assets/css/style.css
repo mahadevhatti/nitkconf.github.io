@@ -471,18 +471,33 @@ div#preloader {
 --------------------------------------------------------------*/
 
 @media (max-width: 768px){
-p#demo,p#demo1,p#demo2 {
+p#demo{
+    background: linear-gradient(145deg, #292f63 0%, #0e3a74 100%);
+    opacity: 0.5;
+},
+
+h2#demo {
     background: linear-gradient(145deg, #292f63 0%, #0e3a74 100%);
     opacity: 0.5;
 }
 }
 
-p#demo,p#demo1,p#demo2{
+p#demo{
     background: linear-gradient(145deg, #292f63 0%, #0e3a74 100%);
     opacity: 0.5;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
+h2#demo {
+    background: linear-gradient(145deg, #292f63 0%, #0e3a74 100%);
+    opacity: 0.5;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+
+
+
 
 #hero {
   width: 100%;
