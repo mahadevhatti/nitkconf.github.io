@@ -136,6 +136,7 @@ body {
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
+  border-radius: 9px;
 }
 
 .clear {
@@ -674,6 +675,21 @@ h2#demo {
   color: #444;
 }
 
+.single-well img {
+  border-radius:1.5rem;
+  height:16rem;
+  width: 35rem;
+}
+
+@media (max-width: 768px) {
+
+  .single-well img {
+    border-radius:1.5rem;
+    height:13rem;
+    width: 35rem;
+  }
+
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
