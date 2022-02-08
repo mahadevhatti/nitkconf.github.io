@@ -733,17 +733,19 @@ h2#demo {
   border-radius: 1.5rem;
   height: 16rem;
   width: 35rem;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
-.single-well img:hover {
+/* .single-well img:hover {
 box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-}
+} */
 
 @media (max-width: 768px) {
   .single-well img {
     border-radius: 1.5rem;
     height: 13rem;
     width: 35rem;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
   }
 }
 
