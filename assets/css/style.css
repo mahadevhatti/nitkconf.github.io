@@ -466,7 +466,7 @@ div#preloader {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover>a {
-  color: #3ec1d5;
+  color: #FFCE45;
 }
 
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
