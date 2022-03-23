@@ -1126,7 +1126,6 @@ box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
 .awesome-img>a::after {
-  /* background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0; */
   content: "";
   height: 100%;
   left: 0;
@@ -1138,7 +1137,6 @@ box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
 .add-actions {
-  /* background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0; */
   bottom: 30px;
   display: block;
   height: 100%;
