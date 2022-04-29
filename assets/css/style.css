@@ -2651,5 +2651,16 @@ span.email-notes {
 
 
 .black-class{
-  color: black
+  color: black;
+}
+
+.prices-cells td{
+  background-color: #eee;
+  transition-duration: 0.2s;
+}
+
+.prices-cells td:hover {
+  background-color: #444;
+  color: white !important;
+  transition-duration: 0.3s;
 }
